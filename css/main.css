@@ -37,8 +37,29 @@
   text-decoration: none;
   color: #000;
 }
+
 .product {
   margin-top: 81px;
   display: flex;
   gap: 100px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.shop-now {
+  width: 165px;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 26px;
+  background-color: #1e2832;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 55px;
 }
